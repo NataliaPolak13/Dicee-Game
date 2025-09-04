@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #89726e;
+  background-color: #fff7f4;
 }
 
 h1 {
@@ -34,7 +34,7 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #ffe5dd;
+  color: #57423f;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
@@ -42,16 +42,20 @@ footer {
 
 .randomize {
   text-align: center;
-  background-color: #ba776e;
+  background-color: #a9636b;
   border-radius: 20px;
   font-family: 'Lobster', cursive;
   font-size: 2.5rem;
-  color: #57423f;
+  color: #ffe3e0;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   height: 6rem;
   width: 20%;
+  cursor: pointer;
+}
 
+.randomize:hover{
+  opacity: 80%;
 }
